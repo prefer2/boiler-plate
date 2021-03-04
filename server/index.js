@@ -99,3 +99,7 @@ app.post('/api/users/login', (req, res) => {
         })
       })
   })
+
+  app.get('/api/hello',(req, res)=>{
+    res.send("안녕하세요!")
+  })
